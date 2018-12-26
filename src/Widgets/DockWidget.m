@@ -509,7 +509,7 @@ static NSShadow *shadowWithOffset(NSSize shadowOffset)
 {
     [(id)self.prominentView setProminent:NO];
 
-    if (self.folderController.presented ||
+    if ([self.folderController isPresented] ||
         ![[NSUserDefaults standardUserDefaults] boolForKey:@"acceptsDraggedItems"])
         return;
 
@@ -530,7 +530,7 @@ static NSShadow *shadowWithOffset(NSSize shadowOffset)
 {
     [(id)self.prominentView setProminent:NO];
 
-    if (self.folderController.presented ||
+    if ([self.folderController isPresented] ||
         ![[NSUserDefaults standardUserDefaults] boolForKey:@"acceptsDraggedItems"])
         return;
 
@@ -559,7 +559,7 @@ static NSShadow *shadowWithOffset(NSSize shadowOffset)
     DockWidgetView *view = self.view;
     NSDragOperation res = NSDragOperationNone;
 
-    if (self.folderController.presented ||
+    if ([self.folderController isPresented] ||
         ![[NSUserDefaults standardUserDefaults] boolForKey:@"acceptsDraggedItems"])
     {
         view.dragTargetView.hidden = YES;
@@ -625,7 +625,7 @@ static NSShadow *shadowWithOffset(NSSize shadowOffset)
     DockWidgetView *view = self.view;
     BOOL res = NO;
 
-    if (self.folderController.presented ||
+    if ([self.folderController isPresented] ||
         ![[NSUserDefaults standardUserDefaults] boolForKey:@"acceptsDraggedItems"])
     {
         view.dragTargetView.hidden = YES;
