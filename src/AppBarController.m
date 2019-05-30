@@ -57,6 +57,7 @@
         @"Weather",
         @"Clock",
         @"Lock",
+        @"ChunkWM",
         NSTouchBarItemIdentifierFlexibleSpace,
         nil];
 

@@ -50,6 +50,8 @@
 		3CFECA122122611F00BB58E9 /* LoginItem.c in Sources */ = {isa = PBXBuildFile; fileRef = 3CFECA102122611F00BB58E9 /* LoginItem.c */; };
 		405B467A219A3CCA0006DC16 /* LockWidget.m in Sources */ = {isa = PBXBuildFile; fileRef = 405B4678219A3CCA0006DC16 /* LockWidget.m */; };
 		405B467C219A3D2D0006DC16 /* login.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 405B467B219A3D2D0006DC16 /* login.framework */; };
+		504A43242228933B00FC7039 /* ControlTrayWidget.m in Sources */ = {isa = PBXBuildFile; fileRef = 504A43232228933B00FC7039 /* ControlTrayWidget.m */; };
+		50D565C122416B56000386C5 /* ChunkWMWidget.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D565C022416B56000386C5 /* ChunkWMWidget.m */; };
 		50DD6DFE21D26AEC007697A1 /* DFRFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50DD6DFD21D26AEC007697A1 /* DFRFoundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -143,6 +145,10 @@
 		405B4678219A3CCA0006DC16 /* LockWidget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LockWidget.m; sourceTree = "<group>"; };
 		405B4679219A3CCA0006DC16 /* LockWidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LockWidget.h; sourceTree = "<group>"; };
 		405B467B219A3D2D0006DC16 /* login.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = login.framework; path = ../../../../../../System/Library/PrivateFrameworks/login.framework; sourceTree = "<group>"; };
+		504A43222228933B00FC7039 /* ControlTrayWidget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ControlTrayWidget.h; sourceTree = "<group>"; };
+		504A43232228933B00FC7039 /* ControlTrayWidget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ControlTrayWidget.m; sourceTree = "<group>"; };
+		50D565BF22416B56000386C5 /* ChunkWMWidget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChunkWMWidget.h; sourceTree = "<group>"; };
+		50D565C022416B56000386C5 /* ChunkWMWidget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChunkWMWidget.m; sourceTree = "<group>"; };
 		50DD6DFD21D26AEC007697A1 /* DFRFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DFRFoundation.framework; path = ../../../../../../System/Library/PrivateFrameworks/DFRFoundation.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -278,6 +284,10 @@
 				3CA1DD85212D3DB200D95DE1 /* NowPlayingWidget.m */,
 				3C3464BD21465319001F45BB /* WeatherWidget.h */,
 				3C3464BE21465319001F45BB /* WeatherWidget.m */,
+				504A43222228933B00FC7039 /* ControlTrayWidget.h */,
+				504A43232228933B00FC7039 /* ControlTrayWidget.m */,
+				50D565BF22416B56000386C5 /* ChunkWMWidget.h */,
+				50D565C022416B56000386C5 /* ChunkWMWidget.m */,
 			);
 			path = Widgets;
 			sourceTree = "<group>";
@@ -411,8 +421,10 @@
 				405B467A219A3CCA0006DC16 /* LockWidget.m in Sources */,
 				3C080A4B2139EB0E00EED01D /* FolderController.m in Sources */,
 				3CAA9C6D2127B3E100D5B467 /* StringToUrlTransformer.m in Sources */,
+				50D565C122416B56000386C5 /* ChunkWMWidget.m in Sources */,
 				3C1A5678211D6B7D008E1F9F /* AppBarController.m in Sources */,
 				3CA8519D212B832100585D29 /* NSWorkspace+Finder.m in Sources */,
+				504A43242228933B00FC7039 /* ControlTrayWidget.m in Sources */,
 				3C01F8F32161D07800FFD2C6 /* Appearance.m in Sources */,
 				3CA1DD8B212D3FC000D95DE1 /* NowPlaying.m in Sources */,
 				3C102D4E2119872800FFB2CF /* EscKeyWidget.m in Sources */,
@@ -588,6 +600,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1.6;
+				DEVELOPMENT_TEAM = T3UD8QX5G4;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -616,6 +629,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1.6;
+				DEVELOPMENT_TEAM = T3UD8QX5G4;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
